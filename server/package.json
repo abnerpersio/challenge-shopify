@@ -1,0 +1,24 @@
+{
+  "name": "desafio-shopify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js > logs.txt 2> errors-log.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.1",
+    "pg": "^8.6.0",
+    "uuid": "^8.3.2"
+  }
+}
